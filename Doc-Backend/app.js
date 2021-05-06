@@ -14,8 +14,8 @@ app.use(cors());
 // });
 
 aws.config.region = 'us-east-2'
-aws.config.accessKeyId = 'AKIAIDB53WSLVLADCPOQ';
-aws.config.secretAccessKey= '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';
+aws.config.accessKeyId = '';
+aws.config.secretAccessKey= '';
 
 
 app.post('/upload', multerUpload.single('upload'), function (req, res, next) {
